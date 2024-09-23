@@ -1,0 +1,33 @@
+body{
+    background: rgb(132, 211, 248);
+    color: rgb(9, 9, 126);
+    font-family: font-family: "Gowun Batang", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(22, 22, 167);
+    color: white;
+    font-family: font-family: "Gowun Batang", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 70%;
+}
